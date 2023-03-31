@@ -1,5 +1,14 @@
 # Changelog
 
+## \[2.0.0-alpha.5]
+
+- Fixes ProGuard rules.
+  - [adf4627b](https://www.github.com/tauri-apps/tauri/commit/adf4627b73bd7098772b7f3020b4aca7228bf239) fix(core): adjust ProGuard rules ([#6588](https://www.github.com/tauri-apps/tauri/pull/6588)) on 2023-03-31
+- Added `raw` encoding option to read stdout and stderr raw bytes.
+  - [509d4678](https://www.github.com/tauri-apps/tauri/commit/509d4678b12816c1dd08a9a5efa71ba556d91c27) Support sending raw byte data to the "data" event for child command's stdout and stderr ([#5789](https://www.github.com/tauri-apps/tauri/pull/5789)) on 2023-03-31
+- Renamed the `default-tls` feature to `native-tls` and added `rustls-tls` feature.
+  - [cfdee00f](https://www.github.com/tauri-apps/tauri/commit/cfdee00f2b1455a9719bc44823fdaeabbe4c1cb2) refactor(core): fix tls features, use rustls on mobile ([#6591](https://www.github.com/tauri-apps/tauri/pull/6591)) on 2023-03-30
+
 ## \[2.0.0-alpha.4]
 
 - Allow a wry plugin to be registered at runtime.
